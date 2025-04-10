@@ -1,0 +1,5 @@
+*.env
+*.vscode
+*.wav
+__pycache__
+voicevox_gv.py
