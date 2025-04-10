@@ -9,7 +9,7 @@
 ## Preparations
 1. Install [VoiceVox Engine viz official website](https://voicevox.hiroshiba.jp/) or [Github releases](https://github.com/VOICEVOX/voicevox_engine/releases):
 ![image](https://github.com/LunaticGhoulPiano/Groq-VoiceVox/blob/master/pics/VoiceVox_Engine.jpg?raw=true)
-You MUST install and run this engine before calling their api, else will get ```httpcore.ConnectError: All connection attempts failed```.
+You **MUST** install and run this engine before calling their api, else will get ```httpcore.ConnectError: All connection attempts failed```.
 You can test with http://127.0.0.1:50021/docs to check if the system is working.
 2. [Applay a Groq api key](https://console.groq.com/keys), create a file ```.env``` and set ```GROQ_API_KEY=<YOUR_GROQ_API_KEY>```.
 3. Install required libraries:
